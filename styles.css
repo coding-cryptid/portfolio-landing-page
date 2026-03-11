@@ -18,3 +18,148 @@ h1 {
     color: #FFFFFF;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+    width: 1110px;
+    height: 70px;
+    padding: 0 85px;
+    gap: 95px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #1B1B1B;
+}
+
+nav .links {
+    display: flex;
+    gap: 70px;
+}
+
+nav .socials {
+    display: flex;
+    width: 107.54px;
+    height: 17px;
+    gap: 25px;
+}
+
+nav .links a {
+    font-weight: 400;
+    color: #9C9C9C;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1%;
+    line-height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+main section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+main .textCol {
+    display: flex;
+    flex-direction: column;
+    width: 538px;
+    height: 247px;
+    gap: 30px;
+    margin-right: 32px;
+    margin-top: 51px;
+}
+
+main p {
+    color: #9C9C9C;
+    font-weight: 400;
+    font-size: 14px;
+    width: 492px;
+    line-height: 24px;
+    gap: 10px;
+    letter-spacing: 1%;
+}
+
+main .btnCont {
+    gap: 10px;
+}
+
+main .btnCont a {
+    text-decoration: none;
+    display: flex;
+    color: #FFFFFF;
+    width: 307.89px;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #3F8E00;
+    border: 1px solid #62BA1B;
+    box-shadow: 0px 8px 30px 0px #3F8E0080;
+    padding: 21px 64px 21px 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .btnCont a img {
+    width: 5.89px;
+    height: 10px;
+}
+
+main .imgCol {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+main .imgCol img {
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands {
+    width: 920px;
+    height: 60px;
+    margin-top: 109px;
+}
+
+.brands .brandsCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.brands h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.brands .brandBx {
+    display: flex;
+    width: 160px;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid #1B1B1B;
+    align-items: center;
+    justify-content: center;
+}
