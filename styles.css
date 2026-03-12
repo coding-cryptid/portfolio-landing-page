@@ -61,6 +61,11 @@ nav .links a {
     line-height: 100%;
 }
 
+a img {
+    width: 5.89px;
+    height: 10px;
+}
+
 .page {
     padding-top: 80px;
     display: flex;
@@ -142,11 +147,6 @@ nav .links a {
     justify-content: space-between;
 }
 
-.heroCol .btnCont a img {
-    width: 5.89px;
-    height: 10px;
-}
-
 .heroCol .imgCol {
     width: 350px;
     height: 350px;
@@ -206,4 +206,29 @@ nav .links a {
 
 .caseStudies {
     background-color: #FFFFFF;
+    flex-direction: column;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.textSide,
+.imgSide {
+    width: 50%;
+}
+
+.normal {
+    flex-direction: row;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.col50 .imgSide img {
+    width: 445px;
+    height: 300px;
+    object-fit: cover;
 }
