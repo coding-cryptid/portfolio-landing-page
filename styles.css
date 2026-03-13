@@ -389,32 +389,6 @@ label {
     margin-bottom: 5px;
 }
 
-.formCont .btnCont,
-.btnCont input {
-    text-decoration: none;
-    display: flex;
-    color: #FFFFFF;
-    height: 63px;
-    width: auto;
-    border: none;
-    font-family: "IBM Plex Mono", monospace;
-    background-color: #3F8E00;
-    border-top: 1px solid #62BA1B;
-    border-bottom: 1px solid #62BA1B;
-    border-radius: 0;
-}
-
-.formCont .btnCont {
-    border-radius: 4px;
-    background-color: #3F8E00;
-    border: 1px solid #62BA1B;
-    box-shadow: 0px 8px 30px 0px #3F8E0080;
-    padding: 21px 64px 21px 64px;
-    width: 350px;
-    align-items: center;
-    justify-content: center;
-}
-
 input,
 textarea {
     display: flex;
@@ -440,6 +414,39 @@ textarea {
     resize: none;
     height: 120px;
     
+}
+
+.formCont .btnCont,
+.btnCont input {
+    text-decoration: none;
+    display: flex;
+    color: #FFFFFF;
+    height: 63px;
+    width: auto;
+    border: none;
+    font-family: "IBM Plex Mono", monospace;
+    background-color: #3F8E00;
+    border-top: 1px solid #62BA1B;
+    border-bottom: 1px solid #62BA1B;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight:  700;
+}
+
+.formCont .btnCont {
+    border-radius: 4px;
+    background-color: #3F8E00;
+    border: 1px solid #62BA1B;
+    box-shadow: 0px 8px 30px 0px #3F8E0080;
+    padding: 21px 64px 21px 64px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnCont input {
+    padding: 0;
+    margin-top: 0;
 }
 
 
