@@ -108,8 +108,7 @@ a img {
     width: 570px;
 }
 
-.btnCont a,
-.btnCont {
+.btnCont a {
     text-decoration: none;
     display: flex;
     color: #FFFFFF;
@@ -397,6 +396,16 @@ label {
     background-color: #3F8E00;
     align-items: center;
     justify-content: center;
+    border-top: 1px solid #62BA1B;
+    border-bottom: 1px solid #62BA1B;
+}
+
+.formCont .btnCont {
+    border-radius: 4px;
+    background-color: #3F8E00;
+    border: 1px solid #62BA1B;
+    box-shadow: 0px 8px 30px 0px #3F8E0080;
+    padding: 21px 64px 21px 64px;
 }
 
 
