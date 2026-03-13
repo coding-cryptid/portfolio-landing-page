@@ -84,6 +84,16 @@ a img {
     justify-content: center;
 }
 
+.testimonials,
+.recentWork {
+    height: 804px;
+}
+
+.testimonials h2,
+.contact h2 {
+    color: #FFFFFF;
+}
+
 .pageIntro {
     text-align: center;
 }
@@ -97,6 +107,7 @@ a img {
     margin: auto;
     width: 570px;
 }
+
 
 /* Hero */
 
@@ -330,4 +341,39 @@ a img {
 
 .btnThree {
     background: #2AB090;
+}
+
+
+/* Testimonials */
+
+.testimonials {
+    background-color: #080808;
+}
+
+
+/* Recent Work */
+
+.recentWork {
+    background-color: #FFFFFF;
+}
+
+
+/* Get In Touch */
+
+.contact {
+    background-color: #080808;
+    height: 672px;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    color: #9C9C9C;
+    background: #1B1B1B;
+    height: 70px;
 }
