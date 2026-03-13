@@ -212,6 +212,13 @@ a img {
 .columns {
     display: flex;
     flex-direction: column;
+    gap: 80px;
+}
+
+.col50 {
+    width: 892px;
+    display: flex;
+    flex-direction: column;
 }
 
 .textSide,
