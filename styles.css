@@ -381,8 +381,8 @@ a img {
     font-size: 100px;
     color: #FFFFFF;
     position: absolute;
-    top: -5;
-    left: 3;
+    top: -30px;
+    left: 7px;
     z-index: 600;
     font-family: "Raleway", sans-serif;
 }
