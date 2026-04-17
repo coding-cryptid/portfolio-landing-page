@@ -607,3 +607,140 @@ footer {
     background: #1B1B1B;
     height: 70px;
 }
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    nav {
+        width: 90%;
+        padding: 10px;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    nav .links a {
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+
+    nav .links {
+        gap: 20px;
+    }
+
+    nav .socials {
+        height: 20px;
+    }
+
+    .hero {
+        height: 800px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .heroCol {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .heroCol .textCol {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heroCol .imgCol {
+        width: 250px;
+        height: 250px;
+        
+    }
+
+    .heroCol .imgCol img {
+        object-fit: cover;
+        width: 250px;
+        height: 250px;
+    }
+
+    .btnCont a {
+        width: 200px;
+        height: 33px;
+        padding: 15px 44px 15px 44px;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    .brands {
+        width: 250px;
+        height: 20px;
+        margin-top: 47px;
+        padding-left: 25px;
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .brands .brandBx {
+        display: flex;
+        width: 160px;
+        height: 40px;
+    }
+
+    .columns {
+       width: 100%;
+       padding-left: 30px;
+    }
+
+    .col50 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: left;
+        gap: 20px;
+    }
+    
+    .col50 .imgSide img {
+        width: 100%;
+    }
+
+    .normal, 
+    .reversed {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .testimonials {
+        background-color: #080808;
+        height: auto;
+    }
+
+    .recentWork {
+        height: auto;
+    }
+
+    .cardCont {
+        flex-direction: column;
+    }
+
+    .carousel button {
+        display: none;
+    }
+}
