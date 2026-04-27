@@ -608,124 +608,244 @@ footer {
     height: 70px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
+    .page {
+        padding-top: 60px;
+    }
+
+    nav {
+        width: 95%;
+        padding: 15px 40px;
+        gap: 50px;
+    }
+
+    nav .links {
+        gap: 40px;
+    }
+
+    nav .links a {
+        font-size: 12px;
+    }
+
+    .pageIntro p {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .heroCol {
+        margin-top: 60px;
+    }
+
+    .heroCol .textCol {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .heroCol .imgCol {
+        width: 300px;
+        height: 300px;
+    }
+
+    .heroCol .imgCol img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .brands {
+        width: 100%;
+    }
+
+    .col50 {
+        width: 90%;
+    }
+
+    .col50 .imgSide img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .textSide,
+    .imgSide {
+        width: 100%;
+    }
+
+    .normal .textSide {
+        margin-right: 0;
+    }
+
+    .reversed .textSide {
+        margin-left: 0;
+    }
+
+    .testimonialCards {
+        margin: 0px 50px;
+        gap: 20px;
+    }
+
+    .testCard .textDivider {
+        width: 380px;
+        padding: 25px;
+        height: auto;
+    }
+
+    .card {
+        width: 400px;
+        height: auto;
+    }
+
+    .cardImg {
+        width: 400px;
+        height: 250px;
+    }
+
+    .carousel button {
+        margin: 0 30px;
+    }
+
+    .carousel .card {
+        padding: 12px;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    input,
+    textarea {
+        width: 300px;
+    }
+
+    .formCont .btnCont {
+        width: 300px;
+    }
+}
+
+/* Mobile - Small tablets and phones (600px to 768px) */
+@media screen and (max-width: 768px) {
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 28px;
     }
 
     h3 {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     nav {
         width: 90%;
-        padding: 10px;
+        padding: 15px;
         margin: 0;
         flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+
+    nav .links {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
     }
 
     nav .links a {
         gap: 10px;
-        padding-top: 0;
-        margin: 0;
-        font-size: 10px;
-    }
-
-    nav .links {
-        gap: 20px;
+        font-size: 12px;
     }
 
     nav .socials {
-        height: 20px;
+        gap: 20px;
     }
 
     .pageIntro p {
-        font-size: 12px;
-        width: auto;
+        font-size: 13px;
+        width: 90%;
     }
 
     .hero {
-        height: 800px;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+        height: auto;
+        padding: 40px 0;
     }
 
     .heroCol {
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .heroCol section {
         width: 100%;
     }
 
     .heroCol .textCol {
+        width: 90%;
+        height: auto;
         align-items: center;
         justify-content: center;
+        margin-right: 0;
+        gap: 20px;
+    }
+
+    .heroCol p {
+        width: 90%;
     }
 
     .heroCol .imgCol {
-        width: 250px;
-        height: 250px;
-        
+        width: 280px;
+        height: 280px;
     }
 
     .heroCol .imgCol img {
-        object-fit: cover;
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 280px;
     }
 
     .btnCont a {
-        width: 200px;
-        height: 33px;
-        padding: 15px 44px 15px 44px;
-        align-items: center;
-        justify-content: space-between;
-        font-size: 10px;
+        width: auto;
+        height: auto;
+        padding: 12px 30px;
+        font-size: 12px;
     }
 
     .brands {
-        width: 50px;
-        height: 20px;
-        margin-top: 47px;
-        padding-left: 25px;
-        margin-right: auto;
-        margin-left: 0;
+        width: 90%;
+        height: auto;
+        margin-top: 60px;
+        padding-left: 0;
     }
 
-    .brands img {
-        width: 40px;
-        height: 10px;
+    .brands h5 {
+        font-size: 12px;
+    }
+
+    .brands .brandsCont {
+        gap: 15px;
     }
 
     .brands .brandBx {
-        display: flex;
-        width: auto;
-        height: 40px;
+        width: 120px;
+        height: 50px;
+    }
+
+    .caseStudies {
+        padding: 40px 20px;
     }
 
     .columns {
-       width: 100%;
-       padding-left: 30px;
+        width: 100%;
+        gap: 60px;
+        margin: 40px 0;
+        padding: 0;
     }
 
     .col50 {
-        width: auto;
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-        align-items: left;
+        width: 90%;
         gap: 20px;
     }
-    
-    .col50 .imgSide img {
-        width: 100%;
-    }
 
-    .normal, 
+    .normal,
     .reversed {
         flex-direction: column;
         width: 100%;
@@ -733,20 +853,224 @@ footer {
         padding: 0;
     }
 
-    .testimonials {
-        background-color: #080808;
+    .textSide,
+    .imgSide {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .col50 .imgSide img {
+        width: 100%;
         height: auto;
+    }
+
+    .testimonials {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .testimonialCards {
+        margin: 30px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testCard .textDivider {
+        width: 100%;
+        max-width: 350px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .testCard .testimonialText {
+        width: 100%;
     }
 
     .recentWork {
         height: auto;
+        padding: 40px 20px;
     }
 
     .cardCont {
         flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .cardImg {
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+    }
+
+    .carousel {
+        flex-direction: column;
+        gap: 20px;
     }
 
     .carousel button {
-        display: none;
+        display: flex;
+        margin: 10px;
+    }
+
+    .contact {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    form {
+        gap: 15px;
+        margin: 30px 0;
+    }
+
+    .input {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .formCont .btnCont {
+        width: 90%;
+        max-width: 350px;
+        padding: 15px 40px;
+        height: auto;
+    }
+
+    .formCont .btnCont input {
+        height: auto;
+        padding: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 10px;
+    }
+}
+
+/* Mobile - Small phones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    nav {
+        width: 100%;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    nav .links a {
+        font-size: 10px;
+    }
+
+    nav .socials {
+        height: 15px;
+        gap: 15px;
+    }
+
+    a img {
+        width: 4px;
+        height: 8px;
+    }
+
+    .pageIntro p {
+        font-size: 12px;
+        width: 95%;
+    }
+
+    .heroCol .textCol {
+        width: 95%;
+    }
+
+    .heroCol p {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .heroCol .imgCol {
+        width: 200px;
+        height: 200px;
+    }
+
+    .heroCol .imgCol img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btnCont a {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+
+    .brands {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .brands h5 {
+        font-size: 10px;
+    }
+
+    .brands .brandBx {
+        width: 100px;
+        height: 40px;
+    }
+
+    .col50 {
+        width: 95%;
+    }
+
+    .testCard .textDivider {
+        width: 100%;
+        max-width: 280px;
+        padding: 15px;
+    }
+
+    .quote {
+        font-size: 70px;
+    }
+
+    .testCard .testimonialText {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .card {
+        width: 95%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    .formCont .btnCont {
+        width: 100%;
     }
 }
